@@ -1,3 +1,19 @@
+---
+metadatos:
+  id: "EPC28-PROMPT-CODE-001"
+  version: "1.0"
+  estado_final: "Cerrado"
+  autor_revisor: "Equipo técnico"
+  fecha_cierre: "2026-09-23"
+  artefactos_relacionados:
+    - "README.md"
+    - "EPC28_analisis.md"
+    - "EPC28_requisitos_funcionales.md"
+    - "EPC28_requisitos_no_funcionales.md"
+    - "EPC28_criterios_aceptacion.md"
+    - "EPC28_test_cases.md"
+---
+
 # PROMPT ÚNICO PARA AGENTE DE VS CODE
 ## Proyecto: Dietas al Día – App progresiva para nutrición clínica
 ## Instrucción: leer los .md del workspace y generar la aplicación completa de una sola vez

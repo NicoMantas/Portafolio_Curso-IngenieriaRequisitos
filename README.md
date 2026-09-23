@@ -1,3 +1,21 @@
+---
+metadatos:
+  id: "PROTO-ROOT-README-001"
+  version: "1.0"
+  estado_final: "Cerrado"
+  autor_revisor: "Equipo de desarrollo"
+  fecha_cierre: "2026-09-23"
+  artefactos_relacionados:
+    - "Prototipo_Funcional_Dietas/README.md"
+    - "Prototipo_Funcional_Dietas/EPC28_analisis.md"
+    - "Prototipo_Funcional_Dietas/EPC28_requisitos_funcionales.md"
+    - "Prototipo_Funcional_Dietas/EPC28_requisitos_no_funcionales.md"
+    - "Prototipo_Funcional_Dietas/EPC28_criterios_aceptacion.md"
+    - "Prototipo_Funcional_Dietas/EPC28_matriz_trazabilidad.md"
+    - "Prototipo_Funcional_Dietas/EPC28_test_cases.md"
+    - "Prototipo_Funcional_Dietas/EPC28_prompt_code.md"
+---
+
 # Rama PWA_Dietas
 
 ## ¿Qué es esta rama?

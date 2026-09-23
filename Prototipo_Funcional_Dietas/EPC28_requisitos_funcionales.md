@@ -1,3 +1,18 @@
+---
+metadatos:
+  id: "EPC28-REQ-FUNC-001"
+  version: "1.0"
+  estado_final: "Cerrado"
+  autor_revisor: "Equipo de requisitos"
+  fecha_cierre: "2026-09-23"
+  artefactos_relacionados:
+    - "EPC28_analisis.md"
+    - "EPC28_criterios_aceptacion.md"
+    - "EPC28_matriz_trazabilidad.md"
+    - "EPC28_test_cases.md"
+    - "README.md"
+---
+
 # EPC28 — Requisitos Funcionales
 
 ## 3.2.1 Requisito funcional 1

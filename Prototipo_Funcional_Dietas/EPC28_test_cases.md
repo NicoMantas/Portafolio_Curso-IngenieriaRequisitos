@@ -1,3 +1,19 @@
+---
+metadatos:
+  id: "EPC28-TEST-CASES-001"
+  version: "1.0"
+  estado_final: "Cerrado"
+  autor_revisor: "Equipo de QA"
+  fecha_cierre: "2026-09-23"
+  artefactos_relacionados:
+    - "EPC28_analisis.md"
+    - "EPC28_requisitos_funcionales.md"
+    - "EPC28_requisitos_no_funcionales.md"
+    - "EPC28_criterios_aceptacion.md"
+    - "EPC28_matriz_trazabilidad.md"
+    - "README.md"
+---
+
 # EPC28 — Test Cases
 
 ## Test Case ID: TC_EPC28_01
