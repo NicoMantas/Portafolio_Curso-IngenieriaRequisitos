@@ -33,28 +33,24 @@ La rama Simulador_Juego tiene como propósito documentar y organizar:
 ```text
 Simulador_Juego/
 ├── README.md
-├── Modelos_UML/
-│   ├── Diagrama Caso de Uso Mudanza.qea
-│   ├── Diagrama de Clases Mudanza.qea
-│   └── Diagrama E-R Mudanza 1.qea
-├── Modelos_Comportamiento/
-│   └── Documentos y artefactos de comportamiento del simulador
 ├── DocumentoSRS_Simulador_Videojuego.pdf
 ├── TestCases_Simulador_Videojuego.pdf
-└── Otros artefactos del proyecto
+└── Modelo_ClasesUML.png
 ```
 
 ## Navegación guiada por carpetas
 
 ### 1. Modelos_UML
 
-En esta carpeta se encuentran los artefactos del modelado estructural del sistema, especialmente los diagramas UML del caso del simulador.
+En esta carpeta se encuentran los artefactos del modelado estructural del sistema, especialmente los diagramas UML del caso del simulador dentro del documento de SRS.
 
-Archivos principales:
+### 2. Documento SRS del simulador
 
-- [Diagrama Caso de Uso Mudanza.qea](../Diagrama%20Caso%20de%20Uso%20Mudanza.qea)
-- [Diagrama de Clases Mudanza.qea](../Diagrama%20de%20Clases%20Mudanza.qea)
-- [Diagrama E-R Mudanza 1.qea](../Diagrama%20E-R%20Mudanza%201.qea)
+El documento de requisitos de software es la pieza central de esta rama, ya que recoge la especificación formal del sistema.
+
+Archivo principal:
+
+- [DocumentoSRS_Simulador_Videojuego.pdf](../DocumentoSRS_Simulador_Videojuego.pdf)
 
 Estos modelos permiten representar:
 
@@ -62,7 +58,7 @@ Estos modelos permiten representar:
 - estructura de clases del dominio,
 - relaciones y entidades principales del problema.
 
-### 2. Modelos_Comportamiento
+### 3. Modelos_Comportamiento
 
 Esta carpeta tiene como finalidad documentar la lógica de funcionamiento del simulador y el comportamiento del sistema en condiciones de operación reales.
 
@@ -72,14 +68,6 @@ Incluye:
 - evolución del proceso de transmisión,
 - comportamiento del vehículo según la marcha seleccionada,
 - reglas de cambio de velocidad y rendimiento.
-
-### 3. Documento SRS del simulador
-
-El documento de requisitos de software es la pieza central de esta rama, ya que recoge la especificación formal del sistema.
-
-Archivo principal:
-
-- [DocumentoSRS_Simulador_Videojuego.pdf](../DocumentoSRS_Simulador_Videojuego.pdf)
 
 En este documento se encuentran:
 
