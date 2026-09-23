@@ -1,0 +1,12 @@
+{
+  "name": "Dietas al Día",
+  "short_name": "Dietas",
+  "description": "App clínica para nutrición y asignación de dietas compatibles.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f8ff",
+  "theme_color": "#0f4c81",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

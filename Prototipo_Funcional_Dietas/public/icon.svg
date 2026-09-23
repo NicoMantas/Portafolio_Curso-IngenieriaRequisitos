@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Dietas al Día icon">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f4c81"/>
+      <stop offset="100%" stop-color="#57b0d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#edf7ff"/>
+  <rect x="18" y="18" width="92" height="92" rx="24" fill="url(#g1)"/>
+  <path d="M42 78c10-18 17-27 24-36 8 11 15 20 24 36-9 8-17 12-24 12-7 0-15-4-24-12z" fill="#fff" opacity="0.9"/>
+  <circle cx="65" cy="52" r="8" fill="#fff"/>
+</svg>
