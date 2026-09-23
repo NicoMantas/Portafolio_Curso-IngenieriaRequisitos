@@ -1,56 +1,48 @@
-# Portafolio de Prototipos y Documentación de Requisitos
+# Rama PWA_Dietas
 
-## Descripción general
+## ¿Qué es esta rama?
 
-Este repositorio reúne un conjunto de artefactos y prototipos desarrollados dentro del contexto de Ingeniería de Requisitos y validación de soluciones digitales. Su propósito es documentar, estructurar y presentar distintos trabajos de análisis, modelado, prototipado y revisión de calidad.
+Esta rama concentra el contenido del prototipo funcional de una aplicación web progresiva (PWA) orientada a la gestión nutricional y clínica. Su propósito es mostrar la solución propuesta para apoyar a profesionales y usuarios en la planificación de dietas, la gestión de pacientes y la recomendación de comidas compatibles con diagnósticos específicos.
 
-La organización del repositorio refleja tres líneas de trabajo principales:
+La rama PWA_Dietas es la parte del repositorio dedicada a la implementación y documentación del prototipo funcional de Dietas al Día.
 
-1. Agencia Aérea
-2. Simulador de Videojuego
-3. Prototipo funcional de Dietas PWA
+## Contexto del proyecto
 
-Cada una de estas áreas aporta una perspectiva distinta del proceso de ingeniería de software: negocio, requisitos, validación y prototipado.
+La aplicación responde a la necesidad de contar con una herramienta digital que ayude a organizar y gestionar información nutricional de manera clara, accesible y útil en contexto clínico.
 
-## Contexto de la misión
+En este tipo de soluciones es importante considerar:
 
-El prototipado permite obtener retroalimentación temprana sobre una solución antes de su construcción definitiva. En esta misión se crea y valida un prototipo de baja fidelidad, aplicando una lista de verificación basada en criterios IEEE para evaluar su calidad.
+- pacientes con distintas condiciones de salud,
+- enfermedades o restricciones alimentarias,
+- dietas recomendadas según el diagnóstico,
+- alimentos, nutrientes y vitaminas asociados a cada plan,
+- necesidad de una interfaz usable en dispositivos móviles y escritorio,
+- consulta rápida y visualización organizada de la información.
 
-Además, se documentan los defectos identificados, se clasifican según su nivel de severidad y se asignan responsables para su corrección.
+La idea es proporcionar una herramienta de apoyo que facilite la toma de decisiones y la organización del tratamiento nutricional.
 
-Este enfoque permite detectar problemas de usabilidad, funcionalidad, claridad y cumplimiento de requisitos antes de avanzar a una implementación más robusta.
+## Objetivo de esta rama
 
-## Objetivo del repositorio
+La rama PWA_Dietas busca:
 
-El repositorio tiene como objetivo servir como portafolio de trabajo académico y técnico, mostrando cómo se desarrollan y validan soluciones desde:
+- documentar la propuesta del prototipo,
+- mostrar la estructura del proyecto,
+- explicar el contexto funcional de la aplicación,
+- guiar al usuario en la revisión de los documentos de requisitos y validación,
+- presentar la solución funcional en una demo interactiva y usable.
 
-- la identificación del problema,
-- la definición de requisitos,
-- la modelación del sistema,
-- la elaboración de propuestas de solución,
-- el prototipado funcional,
-- la validación y mejora continua.
+## Contenido principal de la rama
 
-## Estructura general
+La rama contiene el proyecto completo del prototipo funcional y la documentación asociada. La estructura general es la siguiente:
 
 ```text
-Prototipo/
-├── README.md
-├── Agencia_Aerea/
-│   ├── README.md
-│   ├── Vision_Board_Agencia/
-│   ├── product_backlog_agencia/
-│   └── request_for_change/
-├── Simulador_Juego/
-│   ├── README.md
-│   ├── Modelos_UML/
-│   ├── Modelos_Comportamiento/
-│   ├── DocumentoSRS_Simulador_Videojuego.pdf
-│   └── TestCases_Simulador_Videojuego.pdf
+PWA_Dietas/
 ├── Prototipo_Funcional_Dietas/
 │   ├── README.md
-│   ├── src/
+│   ├── package.json
+│   ├── vite.config.ts
 │   ├── public/
+│   ├── src/
 │   ├── EPC28_analisis.md
 │   ├── EPC28_criterios_aceptacion.md
 │   ├── EPC28_matriz_trazabilidad.md
@@ -58,77 +50,60 @@ Prototipo/
 │   ├── EPC28_requisitos_funcionales.md
 │   ├── EPC28_requisitos_no_funcionales.md
 │   └── EPC28_test_cases.md
-├── Diagrama Caso de Uso Mudanza.qea
-├── Diagrama de Clases Mudanza.qea
-├── Diagrama E-R Mudanza 1.qea
-├── DocumentoSRS_Simulador_Videojuego.pdf
-├── EmpresaMudanza 1.qea
-├── Escenario_Cambio_AeroAlign.pdf
-├── Product_Backlog_AgenciaAerea.docx
-├── Product_Backlog_AgenciaAerea.pdf
-├── Request_Change_AeroAlign.pdf
-├── TestCases_Simulador_Videojuego.pdf
-├── Vision_Board_AgenciaAerea.docx
-└── Vision_Board_AgenciaAerea.pdf
+└── README.md (guía de la rama)
 ```
 
-## Ramas principales del proyecto
+## ¿Qué incluye el prototipo?
 
-### 1. Agencia_Aerea
+El prototipo funcional incluye funcionalidades como:
 
-Está enfocada en el caso de negocio de una compañía aérea que necesita gestionar la asignación de tripulaciones a vuelos. La documentación incluye:
+- gestión de pacientes,
+- registro de enfermedades,
+- catálogo de alimentos, nutrientes y vitaminas,
+- administración de dietas,
+- selección del paciente activo,
+- recomendación de dietas según el diagnóstico,
+- indicadores de auditoría y dashboard,
+- persistencia local del estado,
+- diseño responsivo y compatible con PWA.
 
-- visión del producto,
-- backlog,
-- request for change,
-- contexto del negocio,
-- análisis de requisitos.
+## Documentación de apoyo
 
-### 2. Simulador_Juego
+En esta rama se encuentran los documentos clave para la comprensión de la solución:
 
-Incluye el modelado del simulador, los diagramas UML, el documento SRS, los requisitos y la documentación de pruebas. Se centra en el caso del simulador de transmisión mecánica y en la validación formal del documento.
+- Análisis del problema y del dominio
+- Requisitos funcionales
+- Requisitos no funcionales
+- Criterios de aceptación
+- Matriz de trazabilidad
+- Casos de prueba
+- Prompt base y referencia para el desarrollo
 
-### 3. Prototipo_DietasPWA
+## Navegación recomendada
 
-Contiene el prototipo funcional de una aplicación web orientada a la nutrición clínica, con gestión de dietas, pacientes, enfermedades y alimentos. Esta parte del repo demuestra una solución interactiva y usable con enfoque de validación temprana.
+Para entender esta rama de forma intuitiva, se recomienda seguir este orden:
 
-## Proceso de prototipado y validación
+1. Leer este README de guía.
+2. Abrir la carpeta del prototipo funcional.
+3. Revisar el README interno del proyecto.
+4. Consultar los documentos de requisitos y validación.
+5. Ejecutar la aplicación para revisar la solución de manera interactiva.
 
-Dentro del marco de esta misión, el trabajo se apoya en una metodología de evaluación basada en criterios de calidad de referencia. El flujo general es:
+## Cómo ejecutar el prototipo
 
-- identificar necesidades del usuario,
-- definir el alcance del prototipo,
-- crear una versión de baja fidelidad,
-- revisar la solución con criterios IEEE,
-- detectar defectos,
-- clasificar los defectos por severidad,
-- asignar responsables de corrección,
-- documentar la mejora del producto.
+Desde la carpeta del proyecto:
 
-## Importancia de la validación temprana
+```bash
+npm install
+npm run dev
+```
 
-La validación temprana ayuda a:
+## Estado de la rama
 
-- detectar fallos antes del desarrollo completo,
-- reducir costos de corrección,
-- mejorar la claridad del producto,
-- alinear la solución con los requisitos,
-- facilitar la retroalimentación con stakeholders.
+Esta rama representa una propuesta funcional validable, orientada a demostrar cómo una aplicación PWA puede apoyar la gestión nutricional clínica y la recomendación de dietas de manera estructurada y usable.
 
-## Cómo navegar por el repositorio
-
-Para una lectura lógica del proyecto, se recomienda seguir este orden:
-
-1. Revisar la vista general de este README.
-2. Entrar a la rama o caso de negocio que corresponda.
-3. Revisar la documentación específica del área.
-4. Consultar el prototipo funcional si se desea validar la solución interactiva.
-5. Utilizar los documentos de requisitos y pruebas como apoyo a la evaluación.
-
-## Estado del repositorio
-
-Este repositorio funciona como una muestra integral de trabajo de análisis, diseño, prototipado y validación. Su objetivo es dejar evidencia clara del proceso de ingeniería de requisitos y de la evolución de una solución desde la idea hasta la validación temprana.
+Es una rama de prototipado y documentación, pensada para mostrar la solución en un estado funcional, claro y comprensible para revisión técnica y académica.
 
 ---
 
-> El proyecto está pensado como un portafolio de trabajo académico, con foco en requisitos, prototipado, documentación y revisión de calidad.
+> Esta rama está enfocada en la parte PWA de dietas dentro del repositorio, y su objetivo es guiar al usuario por el contexto, la estructura y la finalidad del prototipo funcional.
