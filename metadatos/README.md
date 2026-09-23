@@ -188,6 +188,25 @@ artefactos_relacionados:
   - "Prototipo_Funcional_Dietas/EPC28_prompt_code.md"
 ```
 
+### 11. Matriz de trazabilidad
+
+```yaml
+id: "EPC28-MATRIZ-TRAZABILIDAD-001"
+version: "1.0"
+estado_final: "Cerrado"
+autor_revisor: "Equipo de trazabilidad"
+fecha_cierre: "2026-09-23"
+artefactos_relacionados:
+  - "README.md"
+  - "Prototipo_Funcional_Dietas/README.md"
+  - "Prototipo_Funcional_Dietas/EPC28_analisis.md"
+  - "Prototipo_Funcional_Dietas/EPC28_requisitos_funcionales.md"
+  - "Prototipo_Funcional_Dietas/EPC28_requisitos_no_funcionales.md"
+  - "Prototipo_Funcional_Dietas/EPC28_criterios_aceptacion.md"
+  - "Prototipo_Funcional_Dietas/EPC28_test_cases.md"
+  - "Prototipo_Funcional_Dietas/EPC28_prompt_code.md"
+```
+
 ## Recomendación
 
 Esta referencia central permite mantener una trazabilidad completa del proyecto y asegurar que cada artefacto esté documentado con la misma estructura de metadatos. La información aquí consolidada debe mantenerse alineada con la cabecera incluida en cada archivo Markdown del repositorio.
